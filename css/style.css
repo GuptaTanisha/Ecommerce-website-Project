@@ -162,8 +162,14 @@ img {
   height: 30px;
   width: 80px;
 }
-.h4-subscribe{
-color: white;
+.subscribe{
+padding: 5px;
+background-color:white;
+
+}
+.subscribe:hover{
+padding: 5px;
+background-color:#ee7500;
 
 }
 .aa-cart-view-btn {
