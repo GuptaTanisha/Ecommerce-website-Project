@@ -36,6 +36,24 @@
 */
 
 /* BASE - Base tyles, Variables, Mixins, etc. */
+
+.hori li{
+  display: inline;
+  padding: 10px;
+
+}
+.hori{
+padding: 50px;
+
+}
+.global{
+  display: block;
+  padding: 30px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
 body {
   background-color: #ffffff;
   font-family: "Lato", sans-serif;
@@ -163,12 +181,12 @@ img {
   width: 80px;
 }
 .subscribe{
-padding: 5px;
-background-color:white;
 
+background-color:white;
+color: #ee7500
 }
 .subscribe:hover{
-padding: 5px;
+  color:  white;
 background-color:#ee7500;
 
 }
