@@ -36,8 +36,27 @@
 */
 
 /* BASE - Base tyles, Variables, Mixins, etc. */
-#add-heading{
-  padding: 20px;
+
+#content .title {
+    padding: 0 0 25px;
+}
+#content .title h1, #content .title h2 {
+    float: left;
+    color: #382e2b;
+}
+
+#content {
+    background-color: #fff;
+    padding: 30px 0 50px 0;
+}
+.rollIn {
+    -webkit-animation-name: rollIn;
+    -moz-animation-name: rollIn;
+    -o-animation-name: rollIn;
+    animation-name: rollIn;
+}
+.privacy{
+  margin: 15px;
 }
 #add{
   -webkit-tap-highlight-color: rgba(0,0,0,0);

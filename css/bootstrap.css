@@ -4,6 +4,30 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.breadcrumb>li {
+    display: inline-block;
+}
+
+ul, li {
+    list-style: none;
+    font-size: 16px;
+}
+.rte {
+    padding: 15px 25px;
+    font-size: 16px;
+    line-height: 21px;
+    color: #898989;
+}
+.rte p {
+    font-size: 16px;
+    line-height: 21px;
+    color: #898989;
+    margin-bottom: 10px;
+}
 html {
   font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
@@ -1424,6 +1448,7 @@ ul ol,
 ol ol {
   margin-bottom: 0;
 }
+
 .list-unstyled {
   padding-left: 0;
   list-style: none;
@@ -3984,6 +4009,10 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   position: relative;
   display: block;
 }
+.nav-brand{
+  padding-left:0px!important;
+}
+
 .nav > li > a {
   position: relative;
   display: block;
@@ -4185,7 +4214,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-collapse {
   padding-right: 15px;
-  padding-left: 15px;
+  padding-left: 0px;
   overflow-x: visible;
   -webkit-overflow-scrolling: touch;
   border-top: 1px solid transparent;
@@ -4695,11 +4724,13 @@ fieldset[disabled] .navbar-inverse .btn-link:focus {
   color: #444;
 }
 .breadcrumb {
-  padding: 8px 15px;
-  margin-bottom: 20px;
-  list-style: none;
-  background-color: #f5f5f5;
-  border-radius: 4px;
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border-radius: 4px;
+    list-style: none outside none;
+    margin-bottom: 15px;
+    margin-top: -15px;
+    padding: 0;
+    color: #898989;
 }
 .breadcrumb > li {
   display: inline-block;
